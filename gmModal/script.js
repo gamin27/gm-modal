@@ -56,10 +56,8 @@ function makeModal(el_img) {
   DOM.close.innerHTML = '&times;';
   //altに値があるなら引き継ぐ
   const altValue = el_img.getAttribute('alt');
-  if (altValue!='') {
-    DOM.img.alt = altValue;
-  }
-  let modalImage = el_img.getAttribute('modal-image');
+  if (altValue!='') DOM.img.alt = altValue;
+  const modalImage = el_img.getAttribute('modal-image');
   //属性値が空ならsrcと同じ画像を表示
   DOM.img.setAttribute('src', (modalImage=='')? el_img.getAttribute('src') : modalImage);
   DOM.divImg.appendChild(DOM.img);
