@@ -27,7 +27,7 @@ function closeModal() {
   gmModal.classList.remove('active');
   window.setTimeout(() => {
     gmModal.parentNode.removeChild(gmModal);
-  }, 500);
+  }, 50);
 }
 
 /**
