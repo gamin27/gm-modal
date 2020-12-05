@@ -1,9 +1,13 @@
-# 概要
-imgタグに属性'modal-image'を付与するだけで、画像をモーダル化できるライブラリモドキ。
+# abst
 
-# ディレクトリ
+You can modalize the image simply by adding the attribute 'model-image' to the img tag
+
+# Library Configuration
+
 ## docs
-デモ用
+
+demo
 
 ## mgModal
-本ライブラリ（モドキ）
+
+modal library
