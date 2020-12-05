@@ -1,13 +1,21 @@
-# abst
+## abst
 
 You can modalize the image simply by adding the attribute 'model-image' to the img tag
 
-# Library Configuration
+## How to use
 
-## docs
+
+
+```html
+<img src="image.jpeg" modal-image="">
+```
+
+## Library Configuration
+
+### docs
 
 demo
 
-## mgModal
+### mgModal
 
 modal library
